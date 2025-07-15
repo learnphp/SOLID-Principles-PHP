@@ -1,23 +1,23 @@
 # 🛠️ PHP SOLID Mini Project with Custom Routing
 
+A lightweight PHP project following the **SOLID principles** with PSR-4 autoloading and a basic routing system.
 This repository features a simple routing system added to your PHP SOLID mini project — similar to micro-frameworks like Slim or Laravel, but without using any full-stack framework.
 
 ---
+## 🚀 Features
 
+- Clean architecture using SOLID principles
+- PSR-4 autoloading via Composer
+- Dependency Injection
+- Simple Router (MVC-style)
+- Organized folder structure
+- Easily extendable (add Stripe, database, etc.)
+  
 ## ⚙️ Project Setup Highlights
 
 - ✔️ Clean autoloading with Composer (no more `require_once`)
 - ✔️ PSR-4 compliant structure (`app/services`, `app/interfaces`, etc.)
 - ✔️ Dependency injection (e.g., `Order` receives `PaymentMethod`, `MailerInterface`, `LoggerInterface`)
-
----
-
-## 🚀 Optional Enhancements You Can Add
-
-- ✅ Add a `Stripe` class (similar to `PayPal`) and switch dynamically
-- ✅ Write unit tests using PHPUnit
-- ✅ Use `.env` for switching between test/live mailers and loggers
-- ✅ Fully implement all SOLID principles (you're already halfway there!)
 
 ---
 
@@ -43,6 +43,15 @@ project-root/
 
 ---
 
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/yourusername/SOLID.git
+cd SOLID
+composer install
+composer dump-autoload -o
+```
+---
 ## 📦 Composer Install
 
 If Composer is not installed or your PHP version has compatibility issues, you can install dependencies using the command below:
@@ -67,12 +76,21 @@ Then open in browser:
 
 ---
 
-## ✅ What You Now Have
+## 🔁 Routing (routes/web.php)
 
-- Composer-based autoloading
-- Simple MVC-style routing
-- SOLID-principled services (`PayPal`, `Mailer`, `Logger`)
-- A clean and extendable entry point
+```php
+$routes = [
+    '/' => fn() => echo "Welcome!",
+    '/order' => fn() => (new OrderController())->checkout(),
+];
+```
+---
+## 🚀 Optional Enhancements You Can Add
+
+- ✅ Add a `Stripe` class (similar to `PayPal`) and switch dynamically
+- ✅ Write unit tests using PHPUnit
+- ✅ Use `.env` for switching between test/live mailers and loggers
+- ✅ Fully implement all SOLID principles (you're already halfway there!)
 
 ---
 
