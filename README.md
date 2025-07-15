@@ -83,3 +83,8 @@ Feel free to reach out:
 **Chinmay Kumar Sahu**  
 📧 chinmay235@gmail.com  
 💬 GitHub: [@chinmay235](https://github.com/chinmay235)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
