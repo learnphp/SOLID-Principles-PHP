@@ -46,16 +46,15 @@ project-root/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/SOLID.git
-cd SOLID
+git clone https://github.com/learnphp/SOLID-Principles-PHP.git
+cd SOLID-Principles-PHP
 composer install
 composer dump-autoload -o
 ```
----
-## 📦 Composer Install
 
-If Composer is not installed or your PHP version has compatibility issues, you can install dependencies using the command below:
+_If Composer is not installed or your PHP version has compatibility issues, you can install dependencies using the command below:_
 ```bash
+cd SOLID-Principles-PHP
 php composer.phar install # or update
 ```
 
