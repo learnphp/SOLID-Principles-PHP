@@ -40,6 +40,17 @@ project-root/
 └── README.md
 </code> </pre>
 
+
+---
+
+## 📦 Composer Install
+
+If Composer is not installed or your PHP version has compatibility issues, you can install dependencies using the command below:
+```bash
+php composer.phar install # or update
+```
+
+> 💡 Make sure you have `composer.phar` in your project root if Composer is not globally installed.
 ---
 
 ## 🌐 Access in Browser
