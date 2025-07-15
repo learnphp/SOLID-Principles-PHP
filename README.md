@@ -1,28 +1,27 @@
-## Setup Uses:
-* ✔️ Clean autoloading (no more require_once)
+# 🛠️ PHP SOLID Mini Project with Custom Routing
 
-* ✔️ Proper PSR-4 structure (app\services, app\interfaces, etc.)
+This repository features a simple routing system added to your PHP SOLID mini project — similar to micro-frameworks like Slim or Laravel, but without using any full-stack framework.
 
-* ✔️ Dependency injection (Order gets PaymentMethod, MailerInterface, LoggerInterface)
+---
 
-## 🔄 What You Can Add Next (Optional Enhancements):
-* ✅ Add a Stripe class (same as PayPal) and switch dynamically
+## ⚙️ Project Setup Highlights
 
-* ✅ Add unit tests with PHPUnit
+- ✔️ Clean autoloading with Composer (no more `require_once`)
+- ✔️ PSR-4 compliant structure (`app/services`, `app/interfaces`, etc.)
+- ✔️ Dependency injection (e.g., `Order` receives `PaymentMethod`, `MailerInterface`, `LoggerInterface`)
 
-* ✅ Use .env config to toggle between test/live mailers/loggers
+---
 
-* ✅ Implement SOLID principles fully — you’re already halfway there
+## 🚀 Optional Enhancements You Can Add
 
-If you want, I can help you:
+- ✅ Add a `Stripe` class (similar to `PayPal`) and switch dynamically
+- ✅ Write unit tests using PHPUnit
+- ✅ Use `.env` for switching between test/live mailers and loggers
+- ✅ Fully implement all SOLID principles (you're already halfway there!)
 
-Convert this to a mini SOLID project structure
+---
 
-Add a routing system (like Yii or Laravel light)
-
-Create a zip-ready boilerplate from your current code
-
-## 📁 Directory Structure
+## 📁 Project Directory Structure
 <pre lang="markdown"> <code>
 project-root/
 ├── app/
@@ -41,9 +40,35 @@ project-root/
 └── README.md
 </code> </pre>
 
-## 🌐 5. Access in Browser
+---
+
+## 🌐 Access in Browser
+
 Start PHP's built-in server:
 <pre lang="markdown"> <code>
 php -S localhost:8000 -t public
 </code> </pre>
 
+Then open in browser:
+
+- [`http://localhost:8000/`](http://localhost:8000/) → Shows welcome message  
+- [`http://localhost:8000/order`](http://localhost:8000/order) → Executes the `checkout()` logic
+
+---
+
+## ✅ What You Now Have
+
+- Composer-based autoloading
+- Simple MVC-style routing
+- SOLID-principled services (`PayPal`, `Mailer`, `Logger`)
+- A clean and extendable entry point
+
+---
+
+## 🙋‍♂️ Need Help?
+
+Feel free to reach out:
+
+**Chinmay Kumar Sahu**  
+📧 chinmay235@gmail.com  
+💬 GitHub: [@chinmay235](https://github.com/chinmay235)
