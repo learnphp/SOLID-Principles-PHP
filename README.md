@@ -3,6 +3,17 @@
 A lightweight PHP project following the **[SOLID](https://en.wikipedia.org/wiki/SOLID) principles** with PSR-4 autoloading and a basic routing system - similar to micro-frameworks like Slim or Laravel, but without using any full-stack framework.
 
 ---
+## ✅ What is SOLID?
+**SOLID** is an acronym for five design principles in object-oriented programming that help you write maintainable, scalable, and robust code.
+
+### It stands for:
+- **S** – Single Responsibility Principle (SRP)
+- **O** – Open/Closed Principle (OCP)
+- **L** – Liskov Substitution Principle (LSP)
+- **I** – Interface Segregation Principle (ISP)
+- **D** – Dependency Inversion Principle (DIP)
+
+---
 ## 🚀 Features
 
 - Clean architecture using SOLID principles
