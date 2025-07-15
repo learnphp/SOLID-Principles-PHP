@@ -22,20 +22,28 @@ Add a routing system (like Yii or Laravel light)
 
 Create a zip-ready boilerplate from your current code
 
-## 📁 Folder Structure
+## 📁 Directory Structure
 <pre lang="markdown"> <code>
 project-root/
 ├── app/
+│   ├── controllers/
+│   │   └── OrderController.php
 │   ├── interfaces/
-│   │   ├── PaymentMethod.php
-│   │   ├── MailerInterface.php
-│   │   └── LoggerInterface.php
 │   ├── services/
-│   │   ├── PayPal.php
-│   │   ├── EmailMailer.php
-│   │   └── FileLogger.php
 │   └── Order.php
+├── public/
+│   └── index.php
+├── routes/
+│   └── web.php
 ├── vendor/
 ├── composer.json
-└── index.php
+├── .htaccess
+└── README.md
 </code> </pre>
+
+## 🌐 5. Access in Browser
+Start PHP's built-in server:
+<pre lang="markdown"> <code>
+php -S localhost:8000 -t public
+</code> </pre>
+
