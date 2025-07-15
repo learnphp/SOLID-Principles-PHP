@@ -50,7 +50,7 @@ If Composer is not installed or your PHP version has compatibility issues, you c
 php composer.phar install # or update
 ```
 
-> 💡 Make sure you have `composer.phar` in your project root if Composer is not globally installed.
+> 💡 Make sure you have `composer.phar` in your project root if Composer is not globally installed. Attached composer compatibility for PHP 7.2+ users
 ---
 
 ## 🌐 Access in Browser
