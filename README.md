@@ -1,7 +1,6 @@
 # 🛠️ PHP SOLID Mini Project with Custom Routing
 
-A lightweight PHP project following the **SOLID principles** with PSR-4 autoloading and a basic routing system.
-This repository features a simple routing system added to your PHP SOLID mini project — similar to micro-frameworks like Slim or Laravel, but without using any full-stack framework.
+A lightweight PHP project following the **[SOLID](https://en.wikipedia.org/wiki/SOLID) principles** with PSR-4 autoloading and a basic routing system - similar to micro-frameworks like Slim or Laravel, but without using any full-stack framework.
 
 ---
 ## 🚀 Features
